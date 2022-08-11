@@ -1,0 +1,54 @@
+/* Select everything on the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: steelblue;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: aqua;
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* only apply to h2 tags within tags with ID 'your-name' */
+#your-name h2 {
+  color: olivedrab;
+}
+
+#profile-picture {
+  width: 200px;
+}
